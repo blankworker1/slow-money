@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slow Money: intergenerational financial literacy</title>
+<meta name="description" content="Slow Money helps families understand money together, across the generations, starting at the kitchen table.">
+<link rel="icon" href="assets/slow-money-logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --yellow: #F5C518;
+    --ink: #111;
+    --paper: #FFFFFF;
+    --grey: #5A5A5A;
+    --line: #E4E0D2;
+    --measure: 38rem;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    font-family: "Overpass", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: var(--ink);
+    background: var(--paper);
+  }
+  a { color: var(--ink); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+  a:hover { text-decoration-color: var(--yellow); }
+  a:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; background: var(--yellow); }
+
+  /* Hero: the sign and the idea */
+  .hero {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 4rem 1.5rem 3.5rem;
+  }
+  .hero-inner {
+    max-width: 60rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(9rem, 15rem) 1fr;
+    gap: 3rem;
+    align-items: center;
+  }
+  .hero img { width: 100%; height: auto; display: block; }
+  .hero h1 {
+    font-size: clamp(3rem, 9vw, 6rem);
+    font-weight: 800;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    margin: 0 0 1.25rem;
+  }
+  .hero p {
+    font-size: 1.3rem;
+    line-height: 1.45;
+    max-width: 30rem;
+    margin: 0;
+  }
+
+  /* Opening statement */
+  .lede {
+    max-width: var(--measure);
+    margin: 4rem auto 3rem;
+    padding: 0 1.5rem;
+  }
+  .lede p { margin: 0 0 1rem; }
+  .lede p:first-child { font-size: 1.35rem; line-height: 1.5; }
+
+  /* Signposts along the road */
+  .road {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    list-style: none;
+  }
+  .post {
+    position: relative;
+    padding: 0 0 2.75rem 3.25rem;
+    border-left: 3px solid var(--ink);
+    margin-left: 0.9rem;
+  }
+  .post:last-child { border-left-color: transparent; }
+  .post::before {
+    /* small warning-sign triangle as the marker */
+    content: "";
+    position: absolute;
+    left: -1.2rem;
+    top: 0;
+    width: 2.1rem;
+    height: 1.9rem;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 90'%3E%3Cpath d='M50 10 L90 80 L10 80 Z' fill='%23F5C518' stroke='%23111' stroke-width='12' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center / contain;
+  }
+  .post h2 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0 0 0.5rem;
+  }
+  .post p { margin: 0 0 0.6rem; max-width: var(--measure); }
+  .post .links { color: var(--grey); font-size: 1rem; }
+  .post .links a { margin-right: 1rem; white-space: nowrap; }
+
+  /* The test: the one loud block */
+  .test {
+    background: var(--yellow);
+    color: var(--ink);
+    padding: 3.5rem 1.5rem;
+    margin-top: 2rem;
+  }
+  .test-inner { max-width: 44rem; margin: 0 auto; }
+  .test h2 {
+    font-size: clamp(2rem, 5vw, 2.8rem);
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 0 0 1rem;
+  }
+  .test p { max-width: var(--measure); margin: 0 0 1.75rem; }
+  .button {
+    display: inline-block;
+    background: var(--ink);
+    color: var(--yellow);
+    font-weight: 800;
+    font-size: 1.15rem;
+    text-decoration: none;
+    padding: 0.85rem 1.6rem;
+    border-radius: 999px;
+  }
+  .button:hover { background: var(--paper); color: var(--ink); }
+  .button:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
+
+  footer {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 3rem;
+    font-size: 0.95rem;
+    color: var(--grey);
+  }
+  footer p { margin: 0 0 0.4rem; }
+  footer a { color: var(--grey); }
+
+  @media (max-width: 40rem) {
+    .hero { padding: 2.5rem 1.25rem; }
+    .hero-inner { grid-template-columns: 1fr; gap: 1.5rem; }
+    .hero img { width: 9rem; }
+    .lede { margin-top: 2.5rem; }
+    .post { padding-left: 2.25rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <img src="assets/slow-money-logo.svg" alt="Slow Money: a yellow warning-sign triangle with a tree-ring coin and the word SLOW">
+    <div>
+      <h1>Slow Money</h1>
+      <p>Intergenerational financial literacy, starting at the kitchen table.</p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="lede">
+    <p>Before anyone opens a bank account, they already know what money means. They learned it at home, by watching the people who fed them.</p>
+    <p>Slow Money treats every family as an economy, and financial understanding as something handed between generations. It offers ideas, practices and a short history for families to understand money together, and to choose on purpose what they pass on.</p>
+  </section>
+
+  <ol class="road" aria-label="The parts of Slow Money">
+    <li class="post">
+      <h2>The idea</h2>
+      <p>Why the household is the first economy, why we count the weekly shop but not the weekly wage, and what good, clean and fair money looks like.</p>
+      <p class="links"><a href="00-manifesto.html">Read the manifesto</a><a href="01-faq.html">Questions and answers</a></p>
+    </li>
+    <li class="post">
+      <h2>Getting started</h2>
+      <p>How a family or a group can use the series: where to begin, how often to meet, and six ground rules that keep every conversation safe and kind.</p>
+      <p class="links"><a href="02-handbook.html">Read the handbook</a><a href="03-glossary.html">Glossary</a></p>
+    </li>
+    <li class="post">
+      <h2>Practices</h2>
+      <p>Five activities where the generations meet: a money conversation over a meal, grandchildren interviewing grandparents, seeing what comes in as well as what goes out, deciding what to record and what to leave as a gift, and choosing what to pass on.</p>
+      <p class="links"><a href="practices/kitchen-table.html">Begin with the Kitchen Table</a></p>
+    </li>
+    <li class="post">
+      <h2>For every age</h2>
+      <p>What children, teenagers, adults and elders each need to understand about money, and the part each plays in the family practices.</p>
+      <p class="links"><a href="ages/children.html">Children</a><a href="ages/teenagers.html">Teenagers</a><a href="ages/adults.html">Adults</a><a href="ages/elders.html">Elders</a></p>
+    </li>
+    <li class="post">
+      <h2>Roots</h2>
+      <p>A short history of the family economy, from ancient Greek households and Florentine family books to the wage packet handed over on the kitchen table.</p>
+      <p class="links"><a href="04-roots.html">Read the history</a></p>
+    </li>
+  </ol>
+
+  <section class="test">
+    <div class="test-inner">
+      <h2>How financially literate are you?</h2>
+      <p>A free online test on three scales: the international standard used by central banks, the structure and risks of the money system itself, and how your household handles money as a family. No pass or fail, just a place on the map.</p>
+      <a class="button" href="tools/literacy-test/">Take the test</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Slow Money is free to read, share and adapt under <a href="LICENSE.html">CC BY-SA 4.0</a>.</p>
+  <p><a href="https://github.com/blankworker1/slow-money">View the source on GitHub</a></p>
+</footer>
+
+</body>
+</html>
