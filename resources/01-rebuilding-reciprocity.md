@@ -2,8 +2,6 @@
 
 *An essay. First in a series on household economics.*
 
-Sep 29, 2026
-
 ## The word that lost its house
 
 Economics kept the name of the household and adopted the logic of the marketplace. What got lost in between was the idea of *enough*.
