@@ -1,6 +1,6 @@
 # Rebuilding Reciprocity
 
-Sep 29, 2026 · Carl
+Sep 29, 2026
 
 ## The word that lost its house
 
