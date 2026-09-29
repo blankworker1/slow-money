@@ -4,7 +4,9 @@
 
 ## The word that lost its house
 
-Economics kept the name of the household and adopted the logic of the marketplace. What got lost in between was the idea of *enough*.
+Economics kept the name of the household and adopted the logic of the marketplace.
+
+What got lost in between was the idea of *enough*.
 
 The word comes from the Greek *oikonomia*: the management of the *oikos*, the household. In the first book of the *Politics*, Aristotle set it against a second art, *chrematistike*, the acquisition of wealth. Oikonomia is about use. A household gathers food, tools and shelter so that its members can live well, and because use has a limit, so does oikonomia. A household can only eat so much bread.
 
