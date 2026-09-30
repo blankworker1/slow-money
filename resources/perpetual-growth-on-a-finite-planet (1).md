@@ -1,7 +1,5 @@
 # Perpetual Growth on a Finite Planet
 
-Sep 30, 2026 · @Carl
-
 ## Impossible, and taken for granted
 
 Perpetual economic growth on a finite planet is impossible. It is also the one assumption almost every economic institution treats as beyond question.
@@ -116,7 +114,7 @@ This is the real content of the growth doctrine. It is not a promise that every 
 
 The contradiction will not resolve itself. Either the money changes, or the planet is made to fit the money.
 
-Changing the money does not mean choosing poverty. It means a unit that does not have to grow: fixed in supply, or at least not issued as interest-bearing debt. In such a system, technology's gains reach everyone as lower prices. Saving makes sense again. Growth becomes a choice made when it is useful, not a compulsion to fend off collapse.
+Changing the money does not mean choosing poverty. It means a unit that does not have to grow: fixed in supply, and not issued as interest-bearing debt. In such a system, technology's gains reach everyone as lower prices. Saving makes sense again. Growth becomes a choice made when it is useful, not a compulsion to fend off collapse.
 
 Bitcoin is one serious attempt at such money: a fixed issuance schedule and no authority able to expand it to rescue the overextended. Whether it works at scale is still an open question, and it raises hard questions of its own. But it has put the assumption that money must expand to a public test, outside the permission of any central bank.
 
