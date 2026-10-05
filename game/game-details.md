@@ -2,7 +2,7 @@
 
 Design notes for a boxed, physical edition of Slow Money: a family game about money for every generation, and an expansion that turns the Self-Mint workshop into a game played at the kitchen table.
 
-This document gathers everything decided so far. For the wider project plan, see the [Roadmap](ROADMAP.md).
+This document gathers everything decided so far. For the wider project plan, see the [Roadmap](../ROADMAP.md).
 
 ## Part 1: The family game
 
