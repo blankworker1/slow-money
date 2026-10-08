@@ -1,7 +1,5 @@
 # Applied Economic Agnosticism
 
-2026-09-18 · @Someone
-
 ## Abstract
 
 This paper introduces *belief-dependency* as an analytic axis measuring the degree to which a transaction's completeness is outsourced to a party not present at the exchange — an issuer, an institution, a protocol, or a future counterparty. We show that barter, correctly understood, is not an anthropological precursor to money but a structurally distinct mode of exchange characterized by zero belief-dependency, available at any point in economic history including the present. We argue that belief-dependency in monetary systems functions as a substitute for the direct observation of *economic entropy* — the tendency of value, condition, or existence to decay or become uncertain across time and distance — and that monetary crises such as hyperinflation are best understood as the discharge of entropy that belief-dependent accounting had ceased to track. From this we derive *applied economic agnosticism*: not a normative preference for barter over money, but a recognition capacity — the ability to identify, for any transaction, whether and how much of its completeness depends on an absent party, and whether the entropy that dependency conceals is in principle observable. We show that apparent limits on agnostic exchange — storage over time, coordination at scale, and specialization — collapse to a single boundary condition: separation of the transacting parties by time or distance from one another and from the entropy governing what they exchange.
