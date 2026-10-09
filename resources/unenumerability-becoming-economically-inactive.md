@@ -6,9 +6,12 @@ A working life is usually told as a story about earning. Forty years, some eight
 
 It's also the wrong story, or at least the wrong protagonist. The hours were real. What they were exchanged for was a number in someone else's record, a number that can be created by keystroke, expanded by policy, and thinned out while you sleep.
 
-Nobody built this to hurt you. It is a game. And like every game, it runs only while the players agree that the score is the point.
+Keep score and life becomes a game. Like every game, it runs for as long as the players keep counting.
 
-You can stop agreeing.
+The only way out is to stop counting.
+
+Only you can choose.
+
 
 ## From illegible to unenumerable
 
