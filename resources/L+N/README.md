@@ -1,4 +1,4 @@
-# Unenumerable
+# L+N: Letters and Numbers 
 
 A series on records, names and numbers: how people came to be counted, and how they might live as people who are known instead.
 
